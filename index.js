@@ -7,7 +7,7 @@ const { Client } = require("pg");
 
 const client = new Client({
   connectionString:
-    "postgres://bcgndofopgnhue:55fd71e4db871a3158b1699f6768e439f64ca74c673cc73f31f3a2ffb36ac28a@ec2-52-86-2-228.compute-1.amazonaws.com:5432/d2koer7v92n21g",
+    "SECRET",
   ssl: {
     rejectUnauthorized: false,
   },
